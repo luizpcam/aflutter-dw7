@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "306896206986",
+    "project_id": "aflutter-dw7-job-timer",
+    "storage_bucket": "aflutter-dw7-job-timer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306896206986:android:ad46033e78fe5672568173",
+        "android_client_info": {
+          "package_name": "br.com.lpcdev.job_timer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306896206986-p4agc48409puc138mo9mia93t37rjv00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjx_JrsrDrVfgi5FaSuZVC2dbT31UcPy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306896206986-p4agc48409puc138mo9mia93t37rjv00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
