@@ -13,11 +13,12 @@ class _SplashPageState extends State<SplashPage> {
   @override
   void initState() {
     super.initState();
+
     FirebaseAuth.instance.authStateChanges().listen((User? user) {
       if (user == null) {
-        Modular.to.navigate('/login');
+        Modular.to.navigate('/login/');
       } else {
-        Modular.to.navigate('/home');
+        Modular.to.navigate('/home/');
       }
     });
   }
@@ -25,11 +26,15 @@ class _SplashPageState extends State<SplashPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: Container(
-      decoration: const BoxDecoration(
+      body: Container(
+        decoration: const BoxDecoration(
           gradient:
-              LinearGradient(colors: [Color(0XFF0092B9), Color(0XFF0167B2)])),
-      child: Center(child: Image.asset('assets/images/logo.png')),
-    ));
+              LinearGradient(colors: [Color(0XFF0092B9), Color(0XFF0167B2)]),
+        ),
+        child: Center(
+          child: Image.asset('assets/images/logo.png'),
+        ),
+      ),
+    );
   }
 }
